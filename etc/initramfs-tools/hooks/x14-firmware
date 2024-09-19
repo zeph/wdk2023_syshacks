@@ -33,9 +33,7 @@ updates/qcom/x1e80100/hp/omnibook-x14/battmgr.jsn \
 updates/qcom/x1e80100/hp/omnibook-x14/qccdsp8380.mbn \
 updates/qcom/x1e80100/hp/omnibook-x14/cdsp_dtbs.elf \
 updates/qcom/x1e80100/hp/omnibook-x14/cdspr.jsn \
-updates/qcom/x1e80100/hp/omnibook-x14/qcav1e8380.mbn \
 updates/qcom/x1e80100/hp/omnibook-x14/qcdxkmsuc8380.mbn \
-updates/qcom/x1e80100/hp/omnibook-x14/qcvss8380.mbn \
 updates/qcom/gen70500_gmu.bin.zst \
 updates/qcom/gen70500_sqe.fw.zst"
 
