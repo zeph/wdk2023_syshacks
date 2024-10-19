@@ -33,9 +33,9 @@ updates/qcom/x1e80100/DELL/XPS13/battmgr.jsn \
 updates/qcom/x1e80100/DELL/XPS13/qccdsp8380.mbn \
 updates/qcom/x1e80100/DELL/XPS13/cdsp_dtbs.elf \
 updates/qcom/x1e80100/DELL/XPS13/cdspr.jsn \
-updates/qcom/x1e80100/DELL/XPS13/qcdxkmsuc8380.mbn \
-updates/qcom/gen70500_gmu.bin.zst \
-updates/qcom/gen70500_sqe.fw.zst"
+updates/qcom/x1e80100/DELL/XPS13/qcdxkmsuc8380.mbn"
+#updates/qcom/gen70500_sqe.fw.zst
+#updates/qcom/gen70500_gmu.bin.zst
 
 # Copy each firmware file to initramfs
 for file in $FIRMWARE_FILES; do
