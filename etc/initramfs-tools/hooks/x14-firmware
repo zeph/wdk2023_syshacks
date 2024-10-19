@@ -19,21 +19,21 @@ esac
 
 . /usr/share/initramfs-tools/hook-functions
 
-mv /lib/firmware/updates/qcom/x1e80100/hp/omnibook-x14/qcadsp8380.mbn.disabled /lib/firmware/updates/qcom/x1e80100/hp/omnibook-x14/qcadsp8380.mbn
+mv /lib/firmware/updates/qcom/x1e80100/DELL/XPS13/qcadsp8380.mbn.disabled /lib/firmware/updates/qcom/x1e80100/DELL/XPS13/qcadsp8380.mbn
 
 # Define a list of firmware files to be included
 
 FIRMWARE_FILES="\
-updates/qcom/x1e80100/hp/omnibook-x14/qcadsp8380.mbn \
-updates/qcom/x1e80100/hp/omnibook-x14/adsp_dtbs.elf \
-updates/qcom/x1e80100/hp/omnibook-x14/adspr.jsn \
-updates/qcom/x1e80100/hp/omnibook-x14/adsps.jsn \
-updates/qcom/x1e80100/hp/omnibook-x14/adspua.jsn \
-updates/qcom/x1e80100/hp/omnibook-x14/battmgr.jsn \
-updates/qcom/x1e80100/hp/omnibook-x14/qccdsp8380.mbn \
-updates/qcom/x1e80100/hp/omnibook-x14/cdsp_dtbs.elf \
-updates/qcom/x1e80100/hp/omnibook-x14/cdspr.jsn \
-updates/qcom/x1e80100/hp/omnibook-x14/qcdxkmsuc8380.mbn \
+updates/qcom/x1e80100/DELL/XPS13/qcadsp8380.mbn \
+updates/qcom/x1e80100/DELL/XPS13/adsp_dtbs.elf \
+updates/qcom/x1e80100/DELL/XPS13/adspr.jsn \
+updates/qcom/x1e80100/DELL/XPS13/adsps.jsn \
+updates/qcom/x1e80100/DELL/XPS13/adspua.jsn \
+updates/qcom/x1e80100/DELL/XPS13/battmgr.jsn \
+updates/qcom/x1e80100/DELL/XPS13/qccdsp8380.mbn \
+updates/qcom/x1e80100/DELL/XPS13/cdsp_dtbs.elf \
+updates/qcom/x1e80100/DELL/XPS13/cdspr.jsn \
+updates/qcom/x1e80100/DELL/XPS13/qcdxkmsuc8380.mbn \
 updates/qcom/gen70500_gmu.bin.zst \
 updates/qcom/gen70500_sqe.fw.zst"
 
@@ -44,5 +44,5 @@ for file in $FIRMWARE_FILES; do
     cp "/lib/firmware/${file}" "${DESTDIR}/lib/firmware/${dir}/"
 done
 
-mv /lib/firmware/updates/qcom/x1e80100/hp/omnibook-x14/qcadsp8380.mbn /lib/firmware/updates/qcom/x1e80100/hp/omnibook-x14/qcadsp8380.mbn.disabled
+mv /lib/firmware/updates/qcom/x1e80100/DELL/XPS13/qcadsp8380.mbn /lib/firmware/updates/qcom/x1e80100/DELL/XPS13/qcadsp8380.mbn.disabled
 
